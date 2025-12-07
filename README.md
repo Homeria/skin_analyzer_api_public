@@ -36,11 +36,11 @@
     체크포인트들은 용량으로 인해 깃허브에 올리지 못하므로, 다음의 링크에서 다운로드 받으세요.
     https://drive.google.com/file/d/1xIhWo2YqqSvRAS_9u9qQpuYwMzCbXWdm/view?usp=sharing
     체크포인트를 받은 후 해당 Checkpoints 폴더 자체를 app/models/에 붙여넣으세요.
-    예시 : 얼굴 탐지 체크포인트의 경로는 skin_analyzer_api/app/models/checkpoints/FACE_CKPT.pth
+    예시 : 얼굴 탐지 체크포인트의 경로는 skin_analyzer_api_public/app/models/checkpoints/FACE_CKPT.pth
 
 ## 추론 Post 요청 시 저장되는 경로
     /data/[Timestamp]/
-    예시 : 2025년 11월 27일 02시 35분 27초 경 POST -> skin_analyzer_api/data/20251127_023527/
+    예시 : 2025년 11월 27일 02시 35분 27초 경 POST -> skin_analyzer_api_public/data/20251127_023527/
 
 ## API 사용 설명서
     해당 API 도메인에 /docs 또는 /redoc을 통하여 접근합니다.
