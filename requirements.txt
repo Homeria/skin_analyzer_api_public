@@ -1,0 +1,21 @@
+# --- 1. PyTorch & CUDA ---
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.2.0+cu121
+torchvision==0.17.0+cu121
+
+# --- 2. AI Core Dependencies ---
+numpy
+pillow==12.0.0
+opencv-python==4.10.0.84
+pandas==2.3.3
+tqdm==4.67.1
+PyYAML==6.0.3
+protobuf==4.25.8
+mediapipe==0.10.21
+
+# --- 3. Web Framework & Backend Tools ---
+fastapi
+uvicorn[standard]
+python-dotenv
+python-multipart
+requests

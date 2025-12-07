@@ -1,0 +1,26 @@
+# Python Caches
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+*.venv
+
+# Environment Variables File (⭐️ 비밀번호 등 민감 정보)
+# .env
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+app/models/checkpoints/*
+!app.models/checkpoints/.gitkeep
+
+app/models/test_img/*
+!app.models/test_img/.gitkeep
+
+data/*
+!data/.gitkeep
+
+
+
