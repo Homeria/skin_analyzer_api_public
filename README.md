@@ -48,7 +48,7 @@
     docs : [Try it out] 기능을 통해 요청 테스트가 가능합니다.
     redoc : 상대적으로 요청에 대한 문서가 docs보다 잘 정리되어 있습니다.
 
-### mediapipe DDL 관련 이슈 해결 방법
+### mediapipe DLL 관련 이슈 해결 방법
 해당 이슈는 Microsoft Visual C++ 재배포 가능 패키지가 설치되지 않아 생기므로, 해결 방법은 2가지입니다.
 1. Visual C++ 재배포 가능 패키지 다운로드
 https://learn.microsoft.com/ko-kr/cpp/windows/latest-supported-vc-redist?view=msvc-170
